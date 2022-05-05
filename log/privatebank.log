@@ -1,0 +1,236 @@
+2022-05-05 13:39:58,004 INFO  [restartedMain] com.bank.privatebnk.PrivatebankApplication:Starting PrivatebankApplication using Java 11.0.12 on LAPTOP-5IIJLC1U with PID 7776 (C:\Users\Asim\IdeaProjects\privatebank\target\classes started by Asim in C:\Users\Asim\IdeaProjects\privatebank)
+2022-05-05 13:39:58,006 INFO  [restartedMain] com.bank.privatebnk.PrivatebankApplication:No active profile set, falling back to 1 default profile: "default"
+2022-05-05 13:39:58,078 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-05 13:39:58,078 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-05 13:39:58,886 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-05 13:39:58,949 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interfaces.
+2022-05-05 13:39:59,913 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
+2022-05-05 13:39:59,926 INFO  [restartedMain] org.apache.catalina.core.StandardService:Starting service [Tomcat]
+2022-05-05 13:39:59,927 INFO  [restartedMain] org.apache.catalina.core.StandardEngine:Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-05 13:40:00,043 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring embedded WebApplicationContext
+2022-05-05 13:40:00,044 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1965 ms
+2022-05-05 13:40:00,254 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper:HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-05 13:40:00,321 INFO  [restartedMain] org.hibernate.Version:HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-05-05 13:40:00,498 INFO  [restartedMain] org.hibernate.annotations.common.Version:HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-05 13:40:00,616 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Starting...
+2022-05-05 13:40:00,935 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Start completed.
+2022-05-05 13:40:00,956 INFO  [restartedMain] org.hibernate.dialect.Dialect:HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-05-05 13:40:01,637 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-05 13:40:01,646 INFO  [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-05 13:40:02,078 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration:spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-05 13:40:02,455 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:LiveReload server is running on port 35729
+2022-05-05 13:40:02,490 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-05 13:40:02,501 INFO  [restartedMain] com.bank.privatebnk.PrivatebankApplication:Started PrivatebankApplication in 5.137 seconds (JVM running for 5.888)
+2022-05-05 13:40:08,017 INFO  [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-05 13:40:08,019 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet:Initializing Servlet 'dispatcherServlet'
+2022-05-05 13:40:08,020 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet:Completed initialization in 1 ms
+2022-05-05 13:40:18,909 INFO  [http-nio-8080-exec-4] com.bank.privatebnk.controller.MessageController:Client want to delete message id: 5
+2022-05-05 16:17:38,087 INFO  [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-05 16:17:38,091 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown initiated...
+2022-05-05 16:17:38,101 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown completed.
+2022-05-05 16:17:47,234 INFO  [restartedMain] com.bank.privatebnk.PrivatebankApplication:Starting PrivatebankApplication using Java 11.0.12 on LAPTOP-5IIJLC1U with PID 11844 (C:\Users\Asim\IdeaProjects\privatebank\target\classes started by Asim in C:\Users\Asim\IdeaProjects\privatebank)
+2022-05-05 16:17:47,236 INFO  [restartedMain] com.bank.privatebnk.PrivatebankApplication:No active profile set, falling back to 1 default profile: "default"
+2022-05-05 16:17:47,317 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-05 16:17:47,317 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-05 16:17:48,307 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-05 16:17:48,397 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Finished Spring Data repository scanning in 75 ms. Found 1 JPA repository interfaces.
+2022-05-05 16:17:49,614 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
+2022-05-05 16:17:49,630 INFO  [restartedMain] org.apache.catalina.core.StandardService:Starting service [Tomcat]
+2022-05-05 16:17:49,631 INFO  [restartedMain] org.apache.catalina.core.StandardEngine:Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-05 16:17:49,746 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring embedded WebApplicationContext
+2022-05-05 16:17:49,746 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 2428 ms
+2022-05-05 16:17:49,989 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper:HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-05 16:17:50,071 INFO  [restartedMain] org.hibernate.Version:HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-05-05 16:17:50,306 INFO  [restartedMain] org.hibernate.annotations.common.Version:HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-05 16:17:50,447 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Starting...
+2022-05-05 16:17:50,725 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Start completed.
+2022-05-05 16:17:50,746 INFO  [restartedMain] org.hibernate.dialect.Dialect:HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-05-05 16:17:51,702 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-05 16:17:51,715 INFO  [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-05 16:17:52,336 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration:spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-05 16:17:52,787 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:LiveReload server is running on port 35729
+2022-05-05 16:17:52,834 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-05 16:17:52,845 INFO  [restartedMain] com.bank.privatebnk.PrivatebankApplication:Started PrivatebankApplication in 6.402 seconds (JVM running for 8.136)
+2022-05-05 16:18:04,779 INFO  [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-05 16:18:04,780 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet:Initializing Servlet 'dispatcherServlet'
+2022-05-05 16:18:04,781 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet:Completed initialization in 1 ms
+2022-05-05 16:19:20,868 INFO  [http-nio-8080-exec-1] com.bank.privatebnk.controller.MessageController:Client want to delete message id: 555
+2022-05-05 16:19:20,868 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m30s33ms717µs600ns).
+2022-05-05 16:19:23,335 WARN  [http-nio-8080-exec-1] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver:Resolved [com.bank.privatebnk.exception.ResourceNotFoundException: Message with id 555 not found]
+2022-05-05 16:23:05,064 INFO  [http-nio-8080-exec-4] com.bank.privatebnk.controller.MessageController:Client want to delete message id: 555
+2022-05-05 16:23:24,634 WARN  [http-nio-8080-exec-4] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver:Resolved [com.bank.privatebnk.exception.ResourceNotFoundException: Message with id 555 not found]
+2022-05-05 16:32:52,024 INFO  [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-05 16:32:52,029 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown initiated...
+2022-05-05 16:32:52,041 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown completed.
+2022-05-05 16:32:58,114 INFO  [restartedMain] com.bank.privatebnk.PrivatebankApplication:Starting PrivatebankApplication using Java 11.0.12 on LAPTOP-5IIJLC1U with PID 7376 (C:\Users\Asim\IdeaProjects\privatebank\target\classes started by Asim in C:\Users\Asim\IdeaProjects\privatebank)
+2022-05-05 16:32:58,116 INFO  [restartedMain] com.bank.privatebnk.PrivatebankApplication:No active profile set, falling back to 1 default profile: "default"
+2022-05-05 16:32:58,181 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-05 16:32:58,181 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-05 16:32:58,985 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-05 16:32:59,054 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Finished Spring Data repository scanning in 54 ms. Found 1 JPA repository interfaces.
+2022-05-05 16:33:00,047 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
+2022-05-05 16:33:00,061 INFO  [restartedMain] org.apache.catalina.core.StandardService:Starting service [Tomcat]
+2022-05-05 16:33:00,061 INFO  [restartedMain] org.apache.catalina.core.StandardEngine:Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-05 16:33:00,169 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring embedded WebApplicationContext
+2022-05-05 16:33:00,170 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1988 ms
+2022-05-05 16:33:00,366 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper:HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-05 16:33:00,426 INFO  [restartedMain] org.hibernate.Version:HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-05-05 16:33:00,625 INFO  [restartedMain] org.hibernate.annotations.common.Version:HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-05 16:33:00,768 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Starting...
+2022-05-05 16:33:00,978 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Start completed.
+2022-05-05 16:33:00,999 INFO  [restartedMain] org.hibernate.dialect.Dialect:HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-05-05 16:33:01,692 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-05 16:33:01,699 INFO  [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-05 16:33:02,185 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration:spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-05 16:33:02,561 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:LiveReload server is running on port 35729
+2022-05-05 16:33:02,600 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-05 16:33:02,609 INFO  [restartedMain] com.bank.privatebnk.PrivatebankApplication:Started PrivatebankApplication in 5.055 seconds (JVM running for 5.677)
+2022-05-05 16:34:51,419 INFO  [http-nio-8080-exec-2] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-05 16:34:51,421 INFO  [http-nio-8080-exec-2] org.springframework.web.servlet.DispatcherServlet:Initializing Servlet 'dispatcherServlet'
+2022-05-05 16:34:51,422 INFO  [http-nio-8080-exec-2] org.springframework.web.servlet.DispatcherServlet:Completed initialization in 1 ms
+2022-05-05 16:34:51,692 WARN  [http-nio-8080-exec-2] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver:Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.bank.privatebnk.controller.response.Response> com.bank.privatebnk.controller.MessageController.createMessage(com.bank.privatebnk.controller.dto.MessageDTO) with 4 errors: [Field error in object 'messageDTO' on field 'name': rejected value []; codes [NotBlank.messageDTO.name,NotBlank.name,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [messageDTO.name,name]; arguments []; default message [name]]; default message [Please Provide not blank name]] [Field error in object 'messageDTO' on field 'name': rejected value []; codes [Size.messageDTO.name,Size.name,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [messageDTO.name,name]; arguments []; default message [name],30,1]; default message [Your name '' must be between 1 and 30 chars long]] [Field error in object 'messageDTO' on field 'subject': rejected value []; codes [NotBlank.messageDTO.subject,NotBlank.subject,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [messageDTO.subject,subject]; arguments []; default message [subject]]; default message [Please Provide not blank subject]] [Field error in object 'messageDTO' on field 'subject': rejected value []; codes [Size.messageDTO.subject,Size.subject,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [messageDTO.subject,subject]; arguments []; default message [subject],20,5]; default message [Your subject '' must be between 5 and 20 chars long]] ]
+2022-05-05 16:35:22,690 WARN  [http-nio-8080-exec-4] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver:Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.bank.privatebnk.controller.response.Response> com.bank.privatebnk.controller.MessageController.createMessage(com.bank.privatebnk.controller.dto.MessageDTO) with 2 errors: [Field error in object 'messageDTO' on field 'subject': rejected value []; codes [Size.messageDTO.subject,Size.subject,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [messageDTO.subject,subject]; arguments []; default message [subject],20,5]; default message [Your subject '' must be between 5 and 20 chars long]] [Field error in object 'messageDTO' on field 'subject': rejected value []; codes [NotBlank.messageDTO.subject,NotBlank.subject,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [messageDTO.subject,subject]; arguments []; default message [subject]]; default message [Please Provide not blank subject]] ]
+2022-05-05 16:36:45,876 INFO  [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-05 16:36:45,880 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown initiated...
+2022-05-05 16:36:45,892 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown completed.
+2022-05-05 16:36:51,884 INFO  [restartedMain] com.bank.privatebnk.PrivatebankApplication:Starting PrivatebankApplication using Java 11.0.12 on LAPTOP-5IIJLC1U with PID 2908 (C:\Users\Asim\IdeaProjects\privatebank\target\classes started by Asim in C:\Users\Asim\IdeaProjects\privatebank)
+2022-05-05 16:36:51,887 INFO  [restartedMain] com.bank.privatebnk.PrivatebankApplication:No active profile set, falling back to 1 default profile: "default"
+2022-05-05 16:36:51,944 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-05 16:36:51,944 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-05 16:36:52,847 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-05 16:36:52,971 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Finished Spring Data repository scanning in 110 ms. Found 1 JPA repository interfaces.
+2022-05-05 16:36:54,122 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
+2022-05-05 16:36:54,136 INFO  [restartedMain] org.apache.catalina.core.StandardService:Starting service [Tomcat]
+2022-05-05 16:36:54,136 INFO  [restartedMain] org.apache.catalina.core.StandardEngine:Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-05 16:36:54,238 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring embedded WebApplicationContext
+2022-05-05 16:36:54,239 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 2295 ms
+2022-05-05 16:36:54,427 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper:HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-05 16:36:54,489 INFO  [restartedMain] org.hibernate.Version:HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-05-05 16:36:54,676 INFO  [restartedMain] org.hibernate.annotations.common.Version:HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-05 16:36:54,796 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Starting...
+2022-05-05 16:36:55,012 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Start completed.
+2022-05-05 16:36:55,033 INFO  [restartedMain] org.hibernate.dialect.Dialect:HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-05-05 16:36:55,733 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-05 16:36:55,741 INFO  [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-05 16:36:56,214 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration:spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-05 16:36:56,645 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:LiveReload server is running on port 35729
+2022-05-05 16:36:56,681 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-05 16:36:56,691 INFO  [restartedMain] com.bank.privatebnk.PrivatebankApplication:Started PrivatebankApplication in 5.323 seconds (JVM running for 5.968)
+2022-05-05 16:36:58,852 INFO  [http-nio-8080-exec-2] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-05 16:36:58,854 INFO  [http-nio-8080-exec-2] org.springframework.web.servlet.DispatcherServlet:Initializing Servlet 'dispatcherServlet'
+2022-05-05 16:36:58,855 INFO  [http-nio-8080-exec-2] org.springframework.web.servlet.DispatcherServlet:Completed initialization in 1 ms
+2022-05-05 16:36:58,882 WARN  [http-nio-8080-exec-2] org.springframework.web.servlet.PageNotFound:Request method 'POST' not supported
+2022-05-05 16:36:58,894 WARN  [http-nio-8080-exec-2] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver:Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-05-05 16:37:00,954 WARN  [http-nio-8080-exec-3] org.springframework.web.servlet.PageNotFound:Request method 'POST' not supported
+2022-05-05 16:37:00,956 WARN  [http-nio-8080-exec-3] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver:Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-05-05 16:37:10,064 WARN  [http-nio-8080-exec-4] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver:Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.bank.privatebnk.controller.response.Response> com.bank.privatebnk.controller.MessageController.createMessage(com.bank.privatebnk.controller.dto.MessageDTO) with 2 errors: [Field error in object 'messageDTO' on field 'subject': rejected value []; codes [NotBlank.messageDTO.subject,NotBlank.subject,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [messageDTO.subject,subject]; arguments []; default message [subject]]; default message [Please Provide not blank subject]] [Field error in object 'messageDTO' on field 'subject': rejected value []; codes [Size.messageDTO.subject,Size.subject,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [messageDTO.subject,subject]; arguments []; default message [subject],20,5]; default message [Your subject '' must be between 5 and 20 chars long]] ]
+2022-05-05 16:50:01,628 INFO  [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-05 16:50:01,631 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown initiated...
+2022-05-05 16:50:01,644 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown completed.
+2022-05-05 16:50:07,881 INFO  [restartedMain] com.bank.privatebnk.PrivatebankApplication:Starting PrivatebankApplication using Java 11.0.12 on LAPTOP-5IIJLC1U with PID 12000 (C:\Users\Asim\IdeaProjects\privatebank\target\classes started by Asim in C:\Users\Asim\IdeaProjects\privatebank)
+2022-05-05 16:50:07,883 INFO  [restartedMain] com.bank.privatebnk.PrivatebankApplication:No active profile set, falling back to 1 default profile: "default"
+2022-05-05 16:50:07,969 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-05 16:50:07,970 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-05 16:50:08,976 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-05 16:50:09,040 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interfaces.
+2022-05-05 16:50:10,054 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
+2022-05-05 16:50:10,069 INFO  [restartedMain] org.apache.catalina.core.StandardService:Starting service [Tomcat]
+2022-05-05 16:50:10,070 INFO  [restartedMain] org.apache.catalina.core.StandardEngine:Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-05 16:50:10,184 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring embedded WebApplicationContext
+2022-05-05 16:50:10,184 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 2214 ms
+2022-05-05 16:50:10,368 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper:HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-05 16:50:10,434 INFO  [restartedMain] org.hibernate.Version:HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-05-05 16:50:10,632 INFO  [restartedMain] org.hibernate.annotations.common.Version:HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-05 16:50:10,766 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Starting...
+2022-05-05 16:50:10,990 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Start completed.
+2022-05-05 16:50:11,014 INFO  [restartedMain] org.hibernate.dialect.Dialect:HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-05-05 16:50:11,800 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-05 16:50:11,809 INFO  [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-05 16:50:12,294 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration:spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-05 16:50:12,649 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:LiveReload server is running on port 35729
+2022-05-05 16:50:12,684 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-05 16:50:12,697 INFO  [restartedMain] com.bank.privatebnk.PrivatebankApplication:Started PrivatebankApplication in 5.431 seconds (JVM running for 6.148)
+2022-05-05 16:50:33,611 INFO  [http-nio-8080-exec-2] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-05 16:50:33,612 INFO  [http-nio-8080-exec-2] org.springframework.web.servlet.DispatcherServlet:Initializing Servlet 'dispatcherServlet'
+2022-05-05 16:50:33,613 INFO  [http-nio-8080-exec-2] org.springframework.web.servlet.DispatcherServlet:Completed initialization in 0 ms
+2022-05-05 17:16:59,098 INFO  [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-05 17:16:59,103 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown initiated...
+2022-05-05 17:16:59,115 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown completed.
+2022-05-05 17:17:05,218 INFO  [restartedMain] com.bank.privatebnk.PrivatebankApplication:Starting PrivatebankApplication using Java 11.0.12 on LAPTOP-5IIJLC1U with PID 8808 (C:\Users\Asim\IdeaProjects\privatebank\target\classes started by Asim in C:\Users\Asim\IdeaProjects\privatebank)
+2022-05-05 17:17:05,220 INFO  [restartedMain] com.bank.privatebnk.PrivatebankApplication:No active profile set, falling back to 1 default profile: "default"
+2022-05-05 17:17:05,284 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-05 17:17:05,284 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-05 17:17:06,211 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-05 17:17:06,268 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Finished Spring Data repository scanning in 48 ms. Found 1 JPA repository interfaces.
+2022-05-05 17:17:07,314 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
+2022-05-05 17:17:07,327 INFO  [restartedMain] org.apache.catalina.core.StandardService:Starting service [Tomcat]
+2022-05-05 17:17:07,327 INFO  [restartedMain] org.apache.catalina.core.StandardEngine:Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-05 17:17:07,434 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/privatebank/api]:Initializing Spring embedded WebApplicationContext
+2022-05-05 17:17:07,434 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 2150 ms
+2022-05-05 17:17:07,612 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper:HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-05 17:17:07,687 INFO  [restartedMain] org.hibernate.Version:HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-05-05 17:17:07,908 INFO  [restartedMain] org.hibernate.annotations.common.Version:HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-05 17:17:08,041 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Starting...
+2022-05-05 17:17:08,245 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Start completed.
+2022-05-05 17:17:08,267 INFO  [restartedMain] org.hibernate.dialect.Dialect:HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-05-05 17:17:09,218 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-05 17:17:09,226 INFO  [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-05 17:17:09,754 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration:spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-05 17:17:10,147 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:LiveReload server is running on port 35729
+2022-05-05 17:17:10,183 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat started on port(s): 8080 (http) with context path '/privatebank/api'
+2022-05-05 17:17:10,192 INFO  [restartedMain] com.bank.privatebnk.PrivatebankApplication:Started PrivatebankApplication in 5.581 seconds (JVM running for 6.252)
+2022-05-05 17:17:29,606 INFO  [http-nio-8080-exec-3] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/privatebank/api]:Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-05 17:17:29,607 INFO  [http-nio-8080-exec-3] org.springframework.web.servlet.DispatcherServlet:Initializing Servlet 'dispatcherServlet'
+2022-05-05 17:17:29,610 INFO  [http-nio-8080-exec-3] org.springframework.web.servlet.DispatcherServlet:Completed initialization in 2 ms
+2022-05-05 18:33:27,478 INFO  [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-05 18:33:27,483 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown initiated...
+2022-05-05 18:33:27,490 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown completed.
+2022-05-05 18:33:33,854 INFO  [restartedMain] com.bank.privatebnk.PrivatebankApplication:Starting PrivatebankApplication using Java 11.0.12 on LAPTOP-5IIJLC1U with PID 12700 (C:\Users\Asim\IdeaProjects\privatebank\target\classes started by Asim in C:\Users\Asim\IdeaProjects\privatebank)
+2022-05-05 18:33:33,856 INFO  [restartedMain] com.bank.privatebnk.PrivatebankApplication:No active profile set, falling back to 1 default profile: "default"
+2022-05-05 18:33:33,936 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-05 18:33:33,937 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-05 18:33:34,887 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-05 18:33:34,956 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Finished Spring Data repository scanning in 57 ms. Found 1 JPA repository interfaces.
+2022-05-05 18:33:36,056 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
+2022-05-05 18:33:36,071 INFO  [restartedMain] org.apache.catalina.core.StandardService:Starting service [Tomcat]
+2022-05-05 18:33:36,071 INFO  [restartedMain] org.apache.catalina.core.StandardEngine:Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-05 18:33:36,183 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/privatebank/api]:Initializing Spring embedded WebApplicationContext
+2022-05-05 18:33:36,184 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 2247 ms
+2022-05-05 18:33:36,384 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper:HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-05 18:33:36,464 INFO  [restartedMain] org.hibernate.Version:HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-05-05 18:33:36,667 INFO  [restartedMain] org.hibernate.annotations.common.Version:HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-05 18:33:36,797 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Starting...
+2022-05-05 18:33:37,034 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Start completed.
+2022-05-05 18:33:37,056 INFO  [restartedMain] org.hibernate.dialect.Dialect:HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-05-05 18:33:38,283 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-05 18:33:38,291 INFO  [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-05 18:33:38,800 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration:spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-05 18:33:39,208 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:LiveReload server is running on port 35729
+2022-05-05 18:33:39,246 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat started on port(s): 8080 (http) with context path '/privatebank/api'
+2022-05-05 18:33:39,258 INFO  [restartedMain] com.bank.privatebnk.PrivatebankApplication:Started PrivatebankApplication in 6.103 seconds (JVM running for 6.94)
+2022-05-05 19:20:39,990 INFO  [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-05 19:20:39,995 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown initiated...
+2022-05-05 19:20:40,010 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown completed.
+2022-05-05 19:20:46,427 INFO  [restartedMain] com.bank.privatebnk.PrivatebankApplication:Starting PrivatebankApplication using Java 11.0.12 on LAPTOP-5IIJLC1U with PID 6356 (C:\Users\Asim\IdeaProjects\privatebank\target\classes started by Asim in C:\Users\Asim\IdeaProjects\privatebank)
+2022-05-05 19:20:46,429 INFO  [restartedMain] com.bank.privatebnk.PrivatebankApplication:No active profile set, falling back to 1 default profile: "default"
+2022-05-05 19:20:46,504 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-05 19:20:46,505 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-05 19:20:47,492 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-05 19:20:47,565 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Finished Spring Data repository scanning in 58 ms. Found 1 JPA repository interfaces.
+2022-05-05 19:20:48,789 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
+2022-05-05 19:20:48,807 INFO  [restartedMain] org.apache.catalina.core.StandardService:Starting service [Tomcat]
+2022-05-05 19:20:48,808 INFO  [restartedMain] org.apache.catalina.core.StandardEngine:Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-05 19:20:48,954 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/privatebank/api]:Initializing Spring embedded WebApplicationContext
+2022-05-05 19:20:48,954 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 2449 ms
+2022-05-05 19:20:49,226 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper:HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-05 19:20:49,329 INFO  [restartedMain] org.hibernate.Version:HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-05-05 19:20:49,608 INFO  [restartedMain] org.hibernate.annotations.common.Version:HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-05 19:20:49,770 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Starting...
+2022-05-05 19:20:49,992 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Start completed.
+2022-05-05 19:20:50,015 INFO  [restartedMain] org.hibernate.dialect.Dialect:HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-05-05 19:20:51,257 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-05 19:20:51,269 INFO  [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-05 19:20:51,750 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration:spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-05 19:20:52,160 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:LiveReload server is running on port 35729
+2022-05-05 19:20:52,204 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat started on port(s): 8080 (http) with context path '/privatebank/api'
+2022-05-05 19:20:52,215 INFO  [restartedMain] com.bank.privatebnk.PrivatebankApplication:Started PrivatebankApplication in 6.476 seconds (JVM running for 7.24)
