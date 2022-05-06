@@ -1,8 +1,8 @@
 server:
   port: 8080
 
-  servlet:
-    context-path: /privatebank/api
+#  servlet:
+#    context-path: /privatebank/api
 
 
   error:
@@ -25,3 +25,8 @@ logging:
     name: log/privatebank.log
   pattern:
     file: "%d %-5level [%thread] %logger:%msg%n"
+
+privatebank:
+  app:
+    jwtSecret: privatebank@@12
+    jwtExpirationMs: 86400000
