@@ -1,6 +1,6 @@
-package com.bank.privatebnk.config.controller.response;
+package com.bank.privatebnk.controller.response;
 
-import com.bank.privatebnk.config.controller.dto.RecipientDTO;
+import com.bank.privatebnk.controller.dto.RecipientDTO;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 

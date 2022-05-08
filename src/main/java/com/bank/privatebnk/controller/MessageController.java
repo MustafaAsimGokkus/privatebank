@@ -1,7 +1,7 @@
-package com.bank.privatebnk.config.controller;
+package com.bank.privatebnk.controller;
 
-import com.bank.privatebnk.config.controller.dto.MessageDTO;
-import com.bank.privatebnk.config.controller.response.Response;
+import com.bank.privatebnk.controller.dto.MessageDTO;
+import com.bank.privatebnk.controller.response.Response;
 import com.bank.privatebnk.domain.Message;
 import com.bank.privatebnk.service.MessageService;
 import org.modelmapper.ModelMapper;
@@ -24,28 +24,22 @@ private MessageService messageService;
     @Autowired
     private ModelMapper modelMapper;
 
-
 //	public  MessageController(MessageService messageService, ModelMapper modelMapper) {
 //		this.messageService=messageService;
 //		this.modelMapper=modelMapper;
 //	}
 
-
-
     private static Logger logger= LoggerFactory.getLogger(MessageController.class);
-
 
     private Message convertTo(MessageDTO messageDTO) {
         Message message= modelMapper.map(messageDTO, Message.class);
         return message;
     }
 
-
     private MessageDTO converttoDTO(Message message) {
         MessageDTO messageDTO=modelMapper.map(message, MessageDTO.class);
         return messageDTO;
     }
-
 
     @PostMapping
     public ResponseEntity<Response> createMessage(@Valid @RequestBody MessageDTO messageDTO){
@@ -84,8 +78,6 @@ private MessageService messageService;
         return ResponseEntity.ok(messageDTO);
     }
 
-
-
     @GetMapping("/request")
    // @PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<MessageDTO> getMessagebyRequest(@RequestParam Long id){
@@ -109,7 +101,6 @@ private MessageService messageService;
         return ResponseEntity.ok(response);
     }
 
-
     @PutMapping("/{id}")
    // @PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<Response> updateMessage(@PathVariable Long id, @Valid @RequestBody MessageDTO messageDTO){
@@ -123,6 +114,5 @@ private MessageService messageService;
         response.setSuccess(true);
         return ResponseEntity.ok(response);
     }
-
 
 }

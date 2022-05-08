@@ -1,17 +1,23 @@
-package com.bank.privatebnk.config.controller;
+package com.bank.privatebnk.controller;
 
-import com.bank.privatebnk.config.controller.dto.RecipientDTO;
-import com.bank.privatebnk.config.controller.request.RecipientRequest;
-import com.bank.privatebnk.config.controller.request.TransactionRequest;
-import com.bank.privatebnk.config.controller.response.RecipientListResponse;
-import com.bank.privatebnk.config.controller.response.Response;
+import com.bank.privatebnk.controller.dto.RecipientDTO;
+import com.bank.privatebnk.controller.request.RecipientRequest;
+import com.bank.privatebnk.controller.request.TransactionRequest;
+import com.bank.privatebnk.controller.request.TransferRequest;
+import com.bank.privatebnk.controller.response.BankStatementResponse;
+import com.bank.privatebnk.controller.response.DashBoardInfoResponse;
+import com.bank.privatebnk.controller.response.RecipientListResponse;
+import com.bank.privatebnk.controller.response.Response;
+import com.bank.privatebnk.domain.Account;
 import com.bank.privatebnk.domain.Recipient;
 import com.bank.privatebnk.domain.User;
 import com.bank.privatebnk.security.service.UserDetailsImpl;
 import com.bank.privatebnk.service.AccountService;
 import com.bank.privatebnk.service.RecipientService;
+import com.bank.privatebnk.service.TransactionService;
 import com.bank.privatebnk.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
@@ -19,24 +25,24 @@ import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
+import java.time.LocalDate;
 import java.util.List;
 import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/account")
 public class AccountController {
-    @Autowired
-    private UserService userService;
 
     @Autowired
     private RecipientService recipientService;
-
+   @Autowired
+   private TransactionService transactionService;
 
     @Autowired
     private AccountService accountService;
 
-//    @Autowired
-//    private TransactionService transactionService;
+    @Autowired
+    private UserService userService;
 
     @PostMapping("/recipient")
     @PreAuthorize("hasRole('ADMIN') or hasRole('CUSTOMER')")
@@ -125,6 +131,54 @@ public class AccountController {
 
         return new ResponseEntity<>(response,HttpStatus.CREATED);
     }
+
+    @PostMapping("/transfer")
+    @PreAuthorize("hasRole('CUSTOMER')")
+
+    public ResponseEntity<Response> transfer(@Valid @RequestBody TransferRequest transactionRequest){
+        UserDetailsImpl userDetails=(UserDetailsImpl) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+        User user=userService.findById(userDetails.getId());
+        accountService.transfer(transactionRequest, user);
+
+        Response response=new Response();
+
+        response.setMessage("Amount successfully transferred");
+        response.setSuccess(true);
+
+        return new ResponseEntity<>(response,HttpStatus.CREATED);
+    }
+
+    @GetMapping("/customerstatement")
+    @PreAuthorize("hasRole('CUSTOMER')")
+
+    public ResponseEntity<DashBoardInfoResponse> getCustomerStatement(
+            @RequestParam(value="startDate") @DateTimeFormat(iso=DateTimeFormat.ISO.DATE) LocalDate startDate,
+            @RequestParam(value="endDate") @DateTimeFormat(iso=DateTimeFormat.ISO.DATE) LocalDate endDate){
+
+
+        UserDetailsImpl userDetails=(UserDetailsImpl) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+        User user=userService.findById(userDetails.getId());
+
+        Account account =accountService.getAccount(user);
+        DashBoardInfoResponse response = transactionService.calculateCustomerStatement(account.getId(), startDate, endDate);
+
+        return ResponseEntity.ok(response);
+    }
+
+
+    @GetMapping("/bankstatement")
+    @PreAuthorize("hasRole('ADMIN')")
+    public ResponseEntity<BankStatementResponse> getBankStatement(
+            @RequestParam(value="startDate") @DateTimeFormat(iso=DateTimeFormat.ISO.DATE) LocalDate startDate,
+            @RequestParam(value="endDate") @DateTimeFormat(iso=DateTimeFormat.ISO.DATE) LocalDate endDate){
+
+        BankStatementResponse bankStatement =
+                transactionService.calculateBankStatement(startDate, endDate);
+
+        return ResponseEntity.ok(bankStatement);
+    }
+
+
     private RecipientDTO convertoDTO(Recipient recipient) {
         RecipientDTO recipientDTO=new RecipientDTO();
         User user=recipient.getAccount().getUser();

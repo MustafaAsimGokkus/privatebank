@@ -1,9 +1,9 @@
-package com.bank.privatebnk.config.controller;
+package com.bank.privatebnk.controller;
 
-import com.bank.privatebnk.config.controller.dto.UserDTO;
-import com.bank.privatebnk.config.controller.request.UserUpdateRequest;
-import com.bank.privatebnk.config.controller.response.Response;
-import com.bank.privatebnk.config.controller.response.UserInfoResponse;
+import com.bank.privatebnk.controller.dto.UserDTO;
+import com.bank.privatebnk.controller.request.UserUpdateRequest;
+import com.bank.privatebnk.controller.response.Response;
+import com.bank.privatebnk.controller.response.UserInfoResponse;
 import com.bank.privatebnk.domain.User;
 import com.bank.privatebnk.service.UserService;
 import org.modelmapper.ModelMapper;

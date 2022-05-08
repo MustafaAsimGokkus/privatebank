@@ -1,4 +1,4 @@
-package com.bank.privatebnk.config.controller;
+package com.bank.privatebnk.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
@@ -11,7 +11,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 @RestController
-@RequestMapping("/management")
+@RequestMapping("/privatebankmanagement")
 public class BeanController {
     @Autowired
     ApplicationContext applicationContext;

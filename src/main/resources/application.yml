@@ -30,3 +30,17 @@ privatebank:
   app:
     jwtSecret: privatebank@@12
     jwtExpirationMs: 86400000
+info:
+  application:
+    name: 'PRIVATE BANK APP'
+    description: This web application for PrivateBank, is developed by PRIVATEBANK Dev. Team
+    version: '@project.version@'
+management:
+  endpoints:
+    web:
+      base-path: /management
+      exposure:
+        include: ['health','info','metrics','loggers','beans','env','configprops','threaddump','auditevents','logfile']
+  info:
+    env:
+      enabled: true
