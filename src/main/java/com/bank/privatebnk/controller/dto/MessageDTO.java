@@ -1,4 +1,4 @@
-package com.bank.privatebnk.controller.dto;
+package com.bank.privatebnk.config.controller.dto;
 
 import lombok.Data;
 

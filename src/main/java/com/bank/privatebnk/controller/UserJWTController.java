@@ -1,9 +1,9 @@
-package com.bank.privatebnk.controller;
+package com.bank.privatebnk.config.controller;
 
-import com.bank.privatebnk.controller.dto.LoginDTO;
-import com.bank.privatebnk.controller.request.RegisterRequest;
-import com.bank.privatebnk.controller.response.LoginResponse;
-import com.bank.privatebnk.controller.response.Response;
+import com.bank.privatebnk.config.controller.dto.LoginDTO;
+import com.bank.privatebnk.config.controller.request.RegisterRequest;
+import com.bank.privatebnk.config.controller.response.LoginResponse;
+import com.bank.privatebnk.config.controller.response.Response;
 import com.bank.privatebnk.security.JwtUtils;
 import com.bank.privatebnk.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;

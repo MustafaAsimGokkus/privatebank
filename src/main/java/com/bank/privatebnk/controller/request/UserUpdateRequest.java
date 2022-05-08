@@ -1,15 +1,15 @@
 package com.bank.privatebnk.config.controller.request;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
+import lombok.AllArgsConstructor;
 import lombok.Data;
 
 import javax.validation.constraints.*;
 import java.util.Set;
 
-
 @Data
-public class RegisterRequest {
-
+@AllArgsConstructor
+public class UserUpdateRequest {
 
     @NotBlank(message="Please provide not blank first name")
     @NotNull(message="Please provide your first name")
@@ -27,21 +27,9 @@ public class RegisterRequest {
     private String ssn;
 
 
-    @NotBlank(message="Please provide not blank username")
-    @NotNull(message="Please provide your username")
-    @Size(min=5, max=20, message="Your username'${validatedValue}' must be between {min} and {max} chars long")
-    private String userName;
-
-
     @Email(message="Please provide a valid email")
     @Size(min=5, max=100, message="Your email'${validatedValue}' must be between {min} and {max} chars long")
     private String email;
-
-
-    @NotBlank(message="Please provide not blank password")
-    @NotNull(message="Please provide your password")
-    @Size(min=5, max=20, message="Your password'${validatedValue}' must be between {min} and {max} chars long")
-    private String password;
 
 
     @Pattern(regexp = "^((\\(\\d{3}\\))|\\d{3})[- .]?\\d{3}[- .]?\\d{4}$",
@@ -59,5 +47,7 @@ public class RegisterRequest {
 
     private Set<String> roles;
 
-}
 
+    private Boolean enabled;
+
+}

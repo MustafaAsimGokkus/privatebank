@@ -1,7 +1,7 @@
-package com.bank.privatebnk.controller;
+package com.bank.privatebnk.config.controller;
 
-import com.bank.privatebnk.controller.dto.MessageDTO;
-import com.bank.privatebnk.controller.response.Response;
+import com.bank.privatebnk.config.controller.dto.MessageDTO;
+import com.bank.privatebnk.config.controller.response.Response;
 import com.bank.privatebnk.domain.Message;
 import com.bank.privatebnk.service.MessageService;
 import org.modelmapper.ModelMapper;

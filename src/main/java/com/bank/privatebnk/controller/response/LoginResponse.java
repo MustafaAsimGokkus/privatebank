@@ -1,4 +1,4 @@
-package com.bank.privatebnk.controller.response;
+package com.bank.privatebnk.config.controller.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
